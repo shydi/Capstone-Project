@@ -65,7 +65,7 @@ public class checkout extends ActionBarActivity {
             else
             {
 
-                Toast confirm = Toast.makeText(checkout.this, "Your order has been receieved", Toast.LENGTH_SHORT);
+                Toast confirm = Toast.makeText(checkout.this, "Your order has been received", Toast.LENGTH_SHORT);
                 confirm.show();
 
                 Intent i = new Intent(checkout.this, confirmation.class);
