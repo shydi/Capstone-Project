@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="estore.lacys.com.lacysestore" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/shoping_cart"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LacysEstore"
+            android:label="@string/app_name"
+            android:theme="@style/splashScreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mainpage"
+            android:label="@string/title_activity_mainprogram" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.mainpage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".clothing"
+            android:label="@string/title_activity_clothing" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.clothing" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".clothes.mensCatalog"
+            android:label="@string/mcatalog" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.clothes.mensCatalog" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".clothes.womensCatalog"
+            android:label="@string/title_activity_womensclothing" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.clothes.womensCatalog" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".clothes.womensDetails"
+            android:label="@string/title_activity_womensclothing" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.clothes.womensDetails" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".clothes.kidsCatalog"
+            android:label="@string/title_activity_kidsclothing" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.clothes.kidsCatalog" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".clothes.kidsDetails"
+            android:label="@string/title_activity_kidsclothing" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.clothes.kidsDetails" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        //Cart
+        <activity
+            android:name=".clothes.CartActivity"
+            android:label="@string/cart" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.clothes.CartActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        //productDetails
+        <activity
+            android:name=".clothes.productDetails"
+            android:label="Product Details" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.clothes.productDetails" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".checkout.checkout"
+            android:label="Order Checkout" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.checkout.checkout" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        //Reviews
+        <activity
+            android:name=".mreviews.mdesignerhoodier"
+            android:label="@string/title_activity_mdesignerhoodier" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.mreviews.mdesignerhoodier" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mreviews.mjeansr"
+            android:label="@string/title_activity_mjeansr" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.mreviews.mjeansr" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mreviews.mblazerr"
+            android:label="@string/title_activity_mblazerr" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.mreviews.mblazerr" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mreviews.mstripedr"
+            android:label="@string/title_activity_mstripedr" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.mreviews.mstripedr" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mreviews.msuitr"
+            android:label="@string/title_activity_msuitr" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.mreviews.msuitr" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".reviews.kittydressr"
+            android:label="@string/title_activity_kittydressr" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.reviews.kittydressr" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".reviews.kittyhoodier"
+            android:label="@string/title_activity_kittyhoodier" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.reviews.kittyhoodier" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".reviews.konesier"
+            android:label="@string/title_activity_konesier" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.reviews.konesier" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".reviews.kshirtr"
+            android:label="@string/title_activity_kshirtr" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.reviews.kshirtr" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".reviews.kpajamar"
+            android:label="@string/title_activity_kpajamar" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.reviews.kpajamar" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".wreviews.wdressr"
+            android:label="@string/title_activity_wdressr" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.wreviews.wdressr" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".wreviews.wsummerdressr"
+            android:label="@string/title_activity_wsummerdressr" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.wreviews.wsummerdressr" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".wreviews.wpantsr"
+            android:label="@string/title_activity_wpantsr" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.wreviews.wpantsr" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".wreviews.wtanktopr"
+            android:label="@string/title_activity_wtanktopr" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.wreviews.wtanktopr" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".wreviews.wtshirtr"
+            android:label="@string/title_activity_wtshirtr" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.wreviews.wtshirtr" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        //Login and Registration
+        <activity
+            android:name=".LogIn"
+            android:label="@string/title_activity_log_in" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.LogIn" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.SignUp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        //Survey
+        <activity
+            android:name=".survey"
+            android:label="@string/title_activity_survey" >
+            <intent-filter>
+                <action android:name="estore.lacys.com.lacysestore.survey" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".checkout.confirmation"
+            android:label="@string/title_activity_confirmation" >
+
+            <action android:name="estore.lacys.com.lacysestore.checkout.confirmation" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+    </application>
+
+</manifest>
